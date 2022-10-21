@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+    color: black;
+}
+
+#terceira {
+    float: right;
+}
+
+
+#header button {
+    border-radius: 30px;
+    width: 200px; 
+    height: 50px;
+    background-color: #e9e51d;
+
+}
+
+
+#quarta img {
+    max-width: 100%;
+    width: 300px;
+    height: 168px;
+    object-fit: cover;
+}
+
+#quarta button {
+    background-color: rgb(218, 147, 17);
+    border-radius: 10px;
+    width: 200px; 
+    height: 50px;
+    float: right;
+}
+
+
+
+#quinta img {
+    max-width: 100%;
+    width: 300px;
+    height: 168px;
+    object-fit: cover;
+}
+
+#quinta button {
+    background-color: rgb(218, 147, 17);
+    border-radius: 10px;
+    width: 200px; 
+    height: 50px;
+    float: left;
+}
+
+main {
+
+    text-align: center;
+  
+
+}
+
+
+
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+#parte1 {
+       background-color:#fccf6f;
+}
+
+#parte2 {
+    background-color:#fcbf4f;
+}
+nav {
+    width: 100%;
+    padding: 1px 0;
+    background-color: #ffbb2a;
+    float: left;
+    
+}
+
+nav h1 h3 {
+    display: inline-block;
+}
+
+
+nav ul {
+    float: right;
+}
+
+
+nav button {
+    float: right;
+    border-radius: 30px;
+    width: 100px; 
+    height: 50px
+}
+
+
+header {
+    background-color:#ff6b16;
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33% ;}
+.col-2 {width: 16.66% ;}
+.col-3 {width: 25% ;}
+.col-4 {width: 33.33% ;}
+.col-5 {width: 41.66% ;}
+.col-6 {width: 50% ;}
+.col-7 {width: 58.33% ;}
+.col-8 {width: 66.66% ;}
+.col-9 {width: 75% ;}
+.col-10 {width: 83.33% ;}
+.col-11 {width: 91.66% ;}
+.col-12 {width: 100% ;}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #fc8020;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+#acessibilidade {
+    background-color: #fc8020;
+   
+}
+
+nav ul li a {
+    color: #000000;
+    display: inline-block;
+    padding: 17px;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  nav ul li {
+    float: right;
+    list-style: none;
+  }
+
